@@ -249,4 +249,4 @@ If the YAML file is missing or `pyyaml` is not installed, the application falls 
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [GNU GPLv3](LICENSE).
