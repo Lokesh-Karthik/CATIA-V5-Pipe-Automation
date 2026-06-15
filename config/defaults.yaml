@@ -1,0 +1,17 @@
+# CATIA Parametric Pipe Builder — Default Configuration
+
+# Centerline detection
+centerline:
+  straightness_tolerance: 0.5      # mm — midpoint/endpoint face-distance match threshold
+  dedup_tolerance: 5.0             # mm — midpoints closer than this are duplicates
+  min_segment_length: 1.0          # mm — segments shorter than this are discarded
+
+# Pipe profile
+pipe:
+  default_radius: 2.0              # mm — default cross-section radius for Rib
+  default_wall_thickness: 1.0      # mm — default Shell offset
+
+# Connect curves (bend bridging)
+connect:
+  continuity: 1                    # 0=point, 1=tangent, 2=curvature
+  tension: 1.0                     # tension factor for Connect curves
